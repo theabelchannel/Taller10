@@ -60,6 +60,15 @@ public class TestSolve {
         String result = Operations.Solve(formula);
         assertEquals("1000+2000-500=2500", result);
     }
+    @Test
+    @DisplayName("División por cero debería retornar mensaje de error")
+    public void testSolveDivisionByZeroReturnsError() {
+    String formula = "12/0";
+    String result = Operations.Solve(formula);
+    assertEquals("12/0=Error", result); 
     
+    }
 
+
+    
 }
