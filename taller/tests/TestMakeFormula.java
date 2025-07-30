@@ -1,5 +1,5 @@
 package taller.tests;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.tests;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.DisplayName;
 
